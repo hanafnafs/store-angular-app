@@ -13,10 +13,11 @@
   }
 
   .row {
+    width: 100%;
     .form {
       border: 1px solid var(--border);
       border-radius: 15px;
-      padding: 5rem;
+      padding: 3rem 1rem;
       background-color: white !important;
 
       .form-control {
@@ -25,14 +26,13 @@
         border-radius: 0px;
       }
 
-
       .submit-btn {
         background-color: var(--primary);
         color: white !important;
-        width: 90%;
-        margin: 15px 5% 10px 5%;
+        width: 100%;
         border-radius: 10px;
-        height: 40px;
+        height: 3rem;
+        margin-top: 2rem;
       }
     }
   }
