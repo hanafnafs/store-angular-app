@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+// @import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap-v4-rtl/scss/bootstrap';
+
+:root {
+  --primary: #572689;
+  --secondary: #231E1E;
+  --border: #d2d2d2;
+}
